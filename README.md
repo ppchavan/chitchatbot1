@@ -11,10 +11,13 @@ I. https://arxiv.org/pdf/1801.07243.pdf
 II. https://research.fb.com/wp-content/uploads/2018/10/Training-Millions-of-Personalized-Dialogue-Agents.pdf
 
 The main hypothesis is related to personas used for training the model. Usage of personas make the chat more interesting for the end user. I wanted to test this by training a real model with a small dataset consisting of these 4 entities - tag, persona, pattern and response. An example of the dataset is given below:
+
+{
 "tag": "goodbye",
 "persona": "Sometimes I act rude to people",
 "patterns": ["Hope to never see ya", "Shut up", "Go away"],
 "responses": ["Bye and don't come back", "Go away", "Hoping that I don't run into you"]
+}
 
 1. Instructions for running the code:
 There are several dependencies that need to be installed along with Python 3.
