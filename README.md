@@ -5,8 +5,9 @@ https://www.youtube.com/watch?v=wypVcNIH6D4
 https://techwithtim.net/tutorials/ai-chatbot/part-1/
 
 I give full credit to the original publisher of the code. The code was downloaded and modified for academic purposes. You can copy it and use it for non commercial use. I had to create a unique dataset which consists of tags for conversation, as well as personas to test the hypothesis for some academic papers. The links for the papers are mentioned here:
-https://arxiv.org/pdf/1801.07243.pdf
-https://research.fb.com/wp-content/uploads/2018/10/Training-Millions-of-Personalized-Dialogue-Agents.pdf
+I. https://arxiv.org/pdf/1801.07243.pdf
+
+II. https://research.fb.com/wp-content/uploads/2018/10/Training-Millions-of-Personalized-Dialogue-Agents.pdf
 
 The main hypothesis is related to personas used for training the model. Usage of personas make the chat more interesting for the end user. I wanted to test this by training a real model with a small dataset consisting of these 4 entities - tag, persona, pattern and response. An example of the dataset is given below:
 "tag": "goodbye",
