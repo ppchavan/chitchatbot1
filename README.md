@@ -24,10 +24,12 @@ You should use pip to install the following:
 - tflearn
 The code should work on latest version of Python as of June 2020.
 
-2. After installing all packages, you can open the file train_model.py in VS code and select Python interpreter and then run the code with F5 (Run). Instead, you can run it from command line if python is added to path variable.
+2. After installing all packages, 
+For windows - you can open the file train_model.py in VS code and select Python interpreter and then run the code with F5 (Run). Instead, you can run it from command line if python is added to path variable as follow:
 python train_model.py
 
-The program should first train the model if it does not exist in the same location. After training the model, the main chat program starts to converse with the user.
+The program should first train the model (if it does not exist in the same location as python code). After training the model, the main chat program starts to converse with the user.
+
 To terminate the program, just type quit or q.
 
 3. Have fun and learn.
